@@ -4,5 +4,4 @@
 
 
 
-**1.2** 
-
+**1.2** on utilise le fait que le fils donne à `fork()` une valeur de retour de 0, contrairement au père.

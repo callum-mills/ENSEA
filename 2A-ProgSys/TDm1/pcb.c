@@ -12,7 +12,8 @@ void print_PCB() {
 
 int main() {
     pid_t ret = fork();
-    printf("fork() has returned: %d\n", ret);
+    if (ret == 0) {printf("la fourchette\n");} 
+    else {printf("le père\n");}
     print_PCB();
     exit(EXIT_SUCCESS);
 }
