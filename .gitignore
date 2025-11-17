@@ -1,0 +1,44 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static and shared libraries
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Executables
+a.out
+*.exe
+
+# Debug and profiling files
+*.gch
+*.pch
+*.gcno
+*.gcda
+*.gcov
+
+# Build directories
+/build/
+/bin/
+/obj/
+
+# Editor/IDE files
+*.swp
+*.swo
+*.log
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# MacOS
+.DS_Store
+
+# Backup files
+*~
+*.bak
+*.swp
